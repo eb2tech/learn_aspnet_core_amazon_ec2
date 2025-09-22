@@ -5,3 +5,24 @@ Demonstrates
 - ASP.NET Core Web API
 - Using Aspire with PostgreSQL
 - Using Aspire with Migrations using the technique of a startup service
+
+## Prerequisites
+
+To run this project, you will need:
+- .NET 9 SDK installed
+- Aspire.CLI installed
+
+You can install the Aspire CLI as a .NET global tool:
+
+```bash
+# Install Aspire CLI
+dotnet tool install -g Aspire.Cli
+
+# Verify installation
+aspire --version
+```
+
+## To Run
+- Clone the repository
+- Navigate to the project directory
+- Run the application using the command: `aspire run`
