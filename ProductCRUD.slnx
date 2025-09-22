@@ -1,6 +1,8 @@
 <Solution>
+  <Project Path="ProductCRUD.ApiModels/ProductCRUD.ApiModels.csproj" Id="e15bb7f5-c586-46e9-af9e-fb78b2788b91" />
   <Project Path="ProductCRUD.ApiService/ProductCRUD.ApiService.csproj" />
   <Project Path="ProductCRUD.AppHost/ProductCRUD.AppHost.csproj" />
+  <Project Path="ProductCRUD.MigrationService/ProductCRUD.MigrationService.csproj" Id="0c6103fd-6c8c-4fb2-b6f4-c09739732a42" />
   <Project Path="ProductCRUD.ServiceDefaults/ProductCRUD.ServiceDefaults.csproj" />
   <Project Path="ProductCRUD.Web/ProductCRUD.Web.csproj" />
 </Solution>

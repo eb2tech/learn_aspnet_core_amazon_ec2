@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ProductCRUD.ApiService\ProductCRUD.ApiService.csproj" />
+    <ProjectReference Include="..\ProductCRUD.MigrationService\ProductCRUD.MigrationService.csproj" />
     <ProjectReference Include="..\ProductCRUD.Web\ProductCRUD.Web.csproj" />
   </ItemGroup>
 
