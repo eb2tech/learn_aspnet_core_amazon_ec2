@@ -5,7 +5,7 @@ using ProductCRUD.ApiService.Models;
 
 namespace ProductCRUD.ApiService.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class ProductsController : ControllerBase
     {
