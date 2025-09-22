@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
   <Project Path="ProductCRUD.ApiModels/ProductCRUD.ApiModels.csproj" Id="e15bb7f5-c586-46e9-af9e-fb78b2788b91" />
   <Project Path="ProductCRUD.ApiService/ProductCRUD.ApiService.csproj" />
   <Project Path="ProductCRUD.AppHost/ProductCRUD.AppHost.csproj" />

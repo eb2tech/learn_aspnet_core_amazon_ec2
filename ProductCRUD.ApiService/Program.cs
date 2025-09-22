@@ -1,11 +1,10 @@
 using ProductCRUD.ApiModels;
-using ProductCRUD.ApiService.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add service defaults & Aspire client integrations.
 builder.AddServiceDefaults();
-builder.AddNpgsqlDbContext<ProductDbContext>("productdb");
+builder.AddNpgsqlDbContext<ProductDbContext>("productDb");
 builder.Services.AddControllers();
 
 // Add services to the container.

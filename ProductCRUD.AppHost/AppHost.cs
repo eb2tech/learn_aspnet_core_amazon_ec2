@@ -19,7 +19,8 @@ var migrationService = builder.AddProject<Projects.ProductCRUD_MigrationService>
 var apiService = builder.AddProject<Projects.ProductCRUD_ApiService>("apiService")
                         .WithHttpHealthCheck("/health")
                         .WithReference(productDb)
-                        .WaitForCompletion(migrationService);
+                        .WaitForCompletion(migrationService)
+                        .WithExternalHttpEndpoints();
 
 builder.AddProject<Projects.ProductCRUD_Web>("webFrontend")
        .WithExternalHttpEndpoints()
